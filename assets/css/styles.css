@@ -283,3 +283,14 @@ img {
     font-size: 1.2rem;
     margin-right: .25rem
 }
+
+/*============ ABOUT ME ============*/
+.about-me__description {
+    text-align: justify;
+    padding: 0.5rem;
+}
+
+.profile__description {
+    text-align: justify;
+    padding: 0.5rem;
+}
