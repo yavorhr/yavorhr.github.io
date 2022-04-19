@@ -110,7 +110,7 @@ img {
     margin-right: var(--mb-3);
 }
 
-.bg-grid {
+.bd-grid {
     display: grid;
     gap: 1.5rem;
 }
@@ -323,19 +323,45 @@ img {
     transform: translate(7px, 0);
 }
 
-.education__data{
-    gap: .5rem;   
+.education__data {
+    gap: .5rem;
 }
 
-.education__title{
+.education__title {
     font-size: var(--h3-font-size);
 }
 
-.education__studies{
+.education__studies {
     font-size: var(--small-font-size);
     color: var(--title-color);
 }
 
-.education__year{
+.education__year {
     font-size: var(--small-font-size);
+}
+
+/*============ SKILLS AND LANGUAGES ============*/
+
+.skills__content {
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.skills__content {
+    gap: 0;
+}
+
+.skills__name {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-3);
+}
+
+.skills__circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    margin-right: .75rem;
+
 }
