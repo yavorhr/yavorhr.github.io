@@ -41,3 +41,18 @@ function scrollActive() {
     })
 }
 window.addEventListener('scroll', scrollActive);
+
+/* ========== SHOW SCROLL TOP ========== */
+
+window.addEventListener('scroll', scrollTop);
+
+function scrollTop() {
+    const scrollTop = document.getElementById('scroll-top');
+
+    if (this.scrollY >= 200) {
+        //when the scroll is higher than 200 viewprot height, add the show-scroll class
+        scrollTop.classList.add('show-scroll')
+    } else {
+        scrollTop.classList.remove('show-scroll')
+    }
+}
