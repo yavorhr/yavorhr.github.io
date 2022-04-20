@@ -5,7 +5,7 @@
 :root {
     --header-height: 3rem;
 
-    /*============ COLORS ============*/
+    /*============ Colors ============*/
     --title-color: #0B0A0A;
     --text-color: #403A3A;
     --text-color-light: #707070;
@@ -13,7 +13,7 @@
     --container-color-alt: #F0EFEF;
     --body-color: #FCFCFC;
 
-    /*============ FONT AND TYPOGRAPHY ============*/
+    /*============ Font and typography ============*/
     --body-font: 'Poppins', sans-serif;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -22,21 +22,21 @@
     --small-font-size: .875rem;
     --smaller-font-size: .815rem;
 
-    /*============ FONT WEIGHT ============*/
+    /*============ Font weight ============*/
     --font-medium: 500;
     --font-semi-bold: 600;
 
-    /*============ MARGNES ============*/
+    /*============ Margines ============*/
     --mb-1: .5rem;
     --mb-2: .1rem;
     --mb-3: 1.5rem;
 
-    /*============ Z INDEX ============*/
+    /*============ Z Index ============*/
     --z-tooltip: 10;
     --z-fixed: 100;
 }
 
-/*============ BASE ============*/
+/*============ Base ============*/
 *,
 ::before,
 ::after {
@@ -47,8 +47,32 @@ html {
     scroll-behavior: smooth;
 }
 
-/*============ Classes modified to reduce size and print on A4 sheet ============*/
+/*============ Variables Dark theme ============*/
+body.dark-theme {
+    --title-color: #f2f2f2;
+    --text-color: #bfbfbf;
+    --container-color: #212121;
+    --container-color-alt: #181616;
+    --body-color: #2b2b2b;
+}
 
+
+/*============ Button Dark/Light ============*/
+.change-theme {
+    position: absolute;
+    right: 0;
+    top: 2.2rem;
+    display: flex;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.change-theme:hover {
+    color: var(--title-color);
+}
+
+/*============ Classes modified to reduce size and print on A4 sheet ============*/
 body {
     margin: 0 0 var(--header-height) 0;
     padding: 0;
@@ -103,7 +127,7 @@ img {
 }
 
 /*============ Layout ============*/
-.bg-container {
+.bd-container {
     max-width: 968px;
     width: calc(100% - 3rem);
     margin-left: var(--mb-3);
@@ -498,8 +522,8 @@ img {
         column-gap: 3.5rem;
     }
 
-    .ineterests__container{
-        grid-template-columns: repeat(4, max-content);   
+    .ineterests__container {
+        grid-template-columns: repeat(4, max-content);
         column-gap: 3.5rem;
     }
 }
