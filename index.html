@@ -14,7 +14,7 @@
     <title>Responsive resume</title>
 </head>
 
-<body class="scale-cv">
+<body>
     <!-- =========== Header =========== -->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
@@ -76,7 +76,7 @@
 
     <main class="l-main bd-container">
         <!-- All elements within div, is generated in PDF -->
-        <div class="resume">
+        <div class="resume" id="area-cv">
             <div class="resume__left">
                 <!-- ======== HOME ======== -->
                 <section class="home" id="home">
@@ -363,7 +363,7 @@
 
                 <!-- ======== INTERESTS ======== -->
                 <section class="interests section">
-                    <h2 class="section-title">interests</h2>
+                    <h2 class="section-title">Interests</h2>
 
                     <div class="interests__container bd-grid">
                         <div class="interests__content">
@@ -416,6 +416,10 @@
         <i class='bx bx-up-arrow-alt scrolltop__icon '></i>
     </a>
 
+    <!-- ======== HTML2PDF ======== -->
+    <script src="/assets/js/html2pdf.bundle.min.js"></script>
+
+    <!-- ======== MAIN JS ======== -->
     <script src="/assets/js/main.js"></script>
 </body>
 
