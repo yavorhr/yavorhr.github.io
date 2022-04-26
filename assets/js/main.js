@@ -103,7 +103,7 @@ let resumeButton = document.getElementById('resume-button');
 
 
 //Function to call areaCv and html2Pdf options
- function generateResume() {
+function generateResume() {
 
     let opt = {
         margin: 0,
@@ -113,7 +113,7 @@ let resumeButton = document.getElementById('resume-button');
             scale: 4,
             letterRendering: true,
         },
-        jsPDF: { format: 'a4', orientation: 'portrait' },
+        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' },
         pagebreak: {
             // mode: "avoid-all",
             // mode: ["avoid-all", "css", "legacy"],
@@ -122,7 +122,7 @@ let resumeButton = document.getElementById('resume-button');
         }
     };
 
-    html2pdf().set(opt).from(areaCv).save();
+    html2pdf().from(areaCv).set(opt).save();
 }
 
 // When the button is clicked, it executes the three functions
