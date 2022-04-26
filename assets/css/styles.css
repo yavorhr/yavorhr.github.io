@@ -643,15 +643,15 @@ img {
 
 /*============ MEDIA QUERIES ============*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 200px) {
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem
     }
 
-    .works__img {
+    /* .works__img {
         object-fit: scale-down; max-width: 100%
-    }
+    } */
 }
 
 /* Classes modified for Large screen size */
