@@ -31,7 +31,7 @@ function scrollActive() {
         const sectionHeight = current.offsetHeight;
         const sectionTop = current.offsetTop - 50;
         let sectionId = current.getAttribute('id');
-     
+
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
         } else {
@@ -99,19 +99,54 @@ function removeScale() {
 let areaCv = document.getElementById('area-cv')
 let resumeButton = document.getElementById('resume-button');
 
-
 //Html2pdf options
-let opt = {
-    margin: 0,
-    filename: 'YavorHristozov_Resume.pdf',
-    image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 4 },
-    jsPDF: { format: 'a4', orientation: 'portrait' }
-};
+
 
 //Function to call areaCv and html2Pdf options
-function generateResume() {
-    html2pdf(areaCv, opt)
+async function generateResume() {
+
+    let opt = {
+        margin: 0,
+        filename: 'fileName',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: {
+            scale: 4,
+            letterRendering: true
+        },
+        jsPDF: { format: 'a4', orientation: 'portrait' },
+        pagebreak: {
+            // mode: "avoid-all",
+            // mode: ["avoid-all", "css", "legacy"],
+            // before: ".pageInPDF",
+            // after: ".stepInPDF",
+        }
+    };
+
+    var docPDF = html2pdf()
+    .from(areaCv)
+    .set(opt)
+    .toPdf()
+    .output()
+    .get("pdf")
+    .then((pdf) => {
+        var totalPages = pdf.internal.getNumberOfPages();
+        for (var i = 1; i <= totalPages; i++) {
+            pdf.setPage(i);
+            pdf.setFontSize(20);
+            pdf.setTextColor(0);
+
+            pdf.setFontSize(10);
+            pdf.text(10, 205, "PAGE " + i + "/" + totalPages);
+        }
+    });
+
+await docPDF
+    .outputPdf()
+    .then((pdf) => {
+       
+    }) .save();
+ 
+
 }
 
 // When the button is clicked, it executes the three functions
@@ -123,3 +158,7 @@ resumeButton.addEventListener('click', () => {
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal
     setTimeout(removeScale, 5000);
 })
+
+
+// salvarea documentului in sine
+
