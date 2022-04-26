@@ -112,7 +112,7 @@ let resumeButton = document.getElementById('resume-button');
         html2canvas: {
             scale: 4,
             letterRendering: true,
-            // windowWidth: 1024
+            scrollX: 0, scrollY: 0, width: 596
         },
         jsPDF: { format: 'a4', orientation: 'portrait' },
         pagebreak: {
