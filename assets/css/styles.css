@@ -649,9 +649,13 @@ img {
         gap: 1rem .5rem
     }
 
-    .works__img {
-        object-fit: fill; max-width: 100%
+    .works__container {
+        grid-template-columns: repeat(2, max-cotent);
     }
+
+    /* .works__img {
+        object-fit: fill; max-width: 100%
+    } */
 }
 
 /* Classes modified for Large screen size */
