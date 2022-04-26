@@ -650,7 +650,7 @@ img {
     }
 
     .works__container {
-        grid-template-columns: repeat(2, max-cotent);
+        grid-template-columns: 8ch auto;
     }
 
     /* .works__img {
