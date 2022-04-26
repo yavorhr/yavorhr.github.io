@@ -107,12 +107,11 @@ let resumeButton = document.getElementById('resume-button');
 
     let opt = {
         margin: 0,
-        filename: 'fileName',
+        filename: 'YavorHristozov_CV',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: {
             scale: 4,
             letterRendering: true,
-            scrollX: 0, scrollY: 0, width: 596
         },
         jsPDF: { format: 'a4', orientation: 'portrait' },
         pagebreak: {
@@ -123,9 +122,7 @@ let resumeButton = document.getElementById('resume-button');
         }
     };
 
-
     html2pdf().set(opt).from(areaCv).save();
-
 }
 
 // When the button is clicked, it executes the three functions
