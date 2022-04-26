@@ -111,7 +111,8 @@ let resumeButton = document.getElementById('resume-button');
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: {
             scale: 4,
-            letterRendering: true
+            letterRendering: true,
+            // windowWidth: 1024
         },
         jsPDF: { format: 'a4', orientation: 'portrait' },
         pagebreak: {
@@ -122,30 +123,8 @@ let resumeButton = document.getElementById('resume-button');
         }
     };
 
-    var docPDF = html2pdf()
-    .from(areaCv)
-    .set(opt)
-    .toPdf()
-    .output()
-    .get("pdf")
-    .then((pdf) => {
-        var totalPages = pdf.internal.getNumberOfPages();
-        for (var i = 1; i <= totalPages; i++) {
-            pdf.setPage(i);
-            pdf.setFontSize(20);
-            pdf.setTextColor(0);
 
-            pdf.setFontSize(10);
-            pdf.text(10, 205, "PAGE " + i + "/" + totalPages);
-        }
-    });
-
- docPDF
-    .outputPdf()
-    .then((pdf) => {
-       
-    }) .save();
- 
+    html2pdf().set(opt).from(areaCv).save();
 
 }
 
