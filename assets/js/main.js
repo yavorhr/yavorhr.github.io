@@ -103,7 +103,7 @@ let resumeButton = document.getElementById('resume-button');
 
 
 //Function to call areaCv and html2Pdf options
-async function generateResume() {
+ function generateResume() {
 
     let opt = {
         margin: 0,
@@ -140,7 +140,7 @@ async function generateResume() {
         }
     });
 
-await docPDF
+ docPDF
     .outputPdf()
     .then((pdf) => {
        
