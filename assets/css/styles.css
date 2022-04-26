@@ -648,6 +648,10 @@ img {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem
     }
+
+    .works__img {
+      max-height: min-content;
+    }
 }
 
 /* Classes modified for Large screen size */
@@ -698,10 +702,6 @@ img {
     .home__button-movil {
         display: none;
     }
-
-    /* .portfolio__container {
-        grid-template-columns: repeat(2, 1fr);
-    } */
 
     .languages__content {
         grid-template-columns: repeat(3, max-content);
