@@ -650,7 +650,7 @@ img {
     }
 
     .works__img {
-      max-height: min-content;
+        object-fit: scale-down; max-width: 100%
     }
 }
 
