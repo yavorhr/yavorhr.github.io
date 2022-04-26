@@ -649,8 +649,8 @@ img {
     }
 
     .works__container {
-        display: flexbox;
-        grid-template-columns: minmax(auto);
+        /* display: flexbox; */
+        grid-template-columns: repeat(2, fit-content(50%))
     }
 
     /* .works__img {
