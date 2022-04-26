@@ -110,7 +110,7 @@ function generateResume() {
         filename: 'YavorHristozov_CV',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: {
-            scale: 4,
+            scale: 1,
             letterRendering: true,
         },
         jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' },
