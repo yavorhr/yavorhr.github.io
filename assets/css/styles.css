@@ -12,6 +12,7 @@
     --container-color: #FAFAFA;
     --container-color-alt: #F0EFEF;
     --body-color: #FCFCFC;
+    --hover-color:silver
 
     /*============ Font and typography ============*/
     --body-font: 'Poppins', sans-serif;
@@ -230,7 +231,7 @@ a {
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /*============ Class CSS ============*/
@@ -522,7 +523,7 @@ img {
     margin-right: .75rem;
 }
 
-.skills__data{
+.skills__data {
     font-size: var(--font-semi-bold);
     color: var(--title-color);
 }
@@ -536,10 +537,60 @@ img {
 
 /*============ PORTFOLIO ============*/
 
-.project__title {
+.works__container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: var(--mb-2);
+    justify-items: center;
+    row-gap: 2rem;
+}
+
+.works__img {
+    max-width: 200px;
+    max-height: 190px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.works__data {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--text-color-light);
+    border-radius: .5rem;
+    transition: .3s;
+    opacity: 0.9;
+}
+
+.works__link {
+    display: inline-flex;
+    font-size: 1.5rem;
+    background-color: silver;
+    color: var(--title-color);
+    padding: .25rem;
+    border-radius: .25rem;
+    margin-bottom: var(--mb-2);
+}
+
+.works__title {
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    justify-content: center;
+}
+
+.works__img:hover .works__data {
+    bottom: 0;
+}
+
+/* .project__title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
-}
+} */
 
 /*============ INTERESTS ============*/
 
@@ -587,6 +638,8 @@ img {
     visibility: visible;
     bottom: 5rem;
 }
+
+
 
 /*============ MEDIA QUERIES ============*/
 /* For small devices, menu two columns */
