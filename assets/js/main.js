@@ -105,7 +105,7 @@ let opt = {
     filename: 'YavorHristozov_CV',
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: {
-        scale: 4,
+        scale: 6,
     },
     jsPDF: { format: 'a4', orientation: 'portrait' },
     pagebreak: {
