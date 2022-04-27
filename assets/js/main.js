@@ -113,7 +113,7 @@ function generateResume() {
             scale: 1,
             letterRendering: true,
         },
-        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' },
+        jsPDF: { format: 'a4', orientation: 'portrait' },
         pagebreak: {
             // mode: "avoid-all",
             // mode: ["avoid-all", "css", "legacy"],
