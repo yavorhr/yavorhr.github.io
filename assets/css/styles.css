@@ -193,8 +193,6 @@ body.scale-cv {
     column-gap: 2.5rem;
 }
 
-
-
 body {
     margin: 0 0 var(--header-height) 0;
     padding: 0;
@@ -638,17 +636,15 @@ img {
     bottom: 5rem;
 }
 
-
-
 /*============ MEDIA QUERIES ============*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 380px) {
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem
     }
 
-    .works__img{
+    .works__img {
         max-width: 100px;
         max-height: 100px;
     }
@@ -660,7 +656,7 @@ img {
 }
 
 /* Classes modified for Large screen size */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 968px) {
     body {
         margin: 3rem 0;
     }

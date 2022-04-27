@@ -99,15 +99,27 @@ function removeScale() {
 let areaCv = document.getElementById('area-cv')
 let resumeButton = document.getElementById('resume-button');
 
-window.html2canvas = html2canvas;
-window.jsPDF = window.jspdf.jsPDF;
+//html2pdf options
+let opt = {
+    margin: 0,
+    filename: 'YavorHristozov_CV',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: {
+        scale: 4,
+    },
+    jsPDF: { format: 'a4', orientation: 'portrait' },
+    pagebreak: {
+        // mode: "avoid-all",
+        // mode: ["avoid-all", "css", "legacy"],
+        // before: ".pageInPDF",
+        // after: ".stepInPDF",
+    }
+};
+
 
 //Function to call areaCv and html2Pdf options
 function generateResume() {
-    let doc = new jsPDF();
-
-    doc.text("HTML TO PDF", 10, 10);
-    doc.save();
+    html2pdf(areaCv, opt)
 }
 
 // When the button is clicked, it executes the three functions
@@ -120,4 +132,6 @@ resumeButton.addEventListener('click', () => {
     setTimeout(removeScale, 5000);
 })
 
+
+// salvarea documentului in sine
 
