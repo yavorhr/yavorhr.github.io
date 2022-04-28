@@ -12,9 +12,10 @@
     --container-color: #FAFAFA;
     --container-color-alt: #F0EFEF;
     --body-color: #FCFCFC;
-    --hover-color: silver
-        /*============ Font and typography ============*/
-        --body-font: 'Poppins', sans-serif;
+    --hover-color: silver;
+
+    /*============ Font and typography ============*/
+    --body-font: 'Poppins', sans-serif;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
@@ -54,6 +55,7 @@ body.dark-theme {
     --container-color: #212121;
     --container-color-alt: #181616;
     --body-color: #2b2b2b;
+    --hover-color: white
 }
 
 
@@ -81,6 +83,11 @@ body.scale-cv {
     --small-font-size: .75rem;
     --smaller-font-size: .688rem;
 }
+
+.scale-cv .home__img {
+    filter: grayscale(0%);
+}
+
 
 /*============ Generate PDF button ============*/
 .generate-pdf {
@@ -188,6 +195,7 @@ body.scale-cv {
 .scale-cv .skills__name {
     margin-bottom: var(--mb-1);
 }
+
 
 .scale-cv .ineterests__container {
     column-gap: 2.5rem;
@@ -358,11 +366,23 @@ img {
 }
 
 .home__img {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     justify-self: center;
     margin-bottom: var(--mb-1);
+    border: 3px solid white;
+    cursor: pointer;
+    /* transition: .5s; */
+    user-select: none;
+    filter: grayscale(100%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+}
+
+.home__img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
 }
 
 .home__title {
@@ -542,8 +562,8 @@ img {
 }
 
 .works__img {
-    max-width: 200px;
-    max-height: 190px;
+    /* max-width: 200px;
+    max-height: 190px; */
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
@@ -562,6 +582,7 @@ img {
     border-radius: .5rem;
     transition: .3s;
     opacity: 0.9;
+    cursor: pointer;
 }
 
 .works__link {
@@ -605,8 +626,13 @@ img {
 
 .interests__icon {
     font-size: 1.5rem;
-    color: var(--text-color-light);
     margin-bottom: .25rem;
+}
+
+
+.interests__icon:hover,
+.interests__name:hover {
+    color: var(--hover-color);
 }
 
 /* Scroll top */
@@ -638,20 +664,15 @@ img {
 
 /*============ MEDIA QUERIES ============*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 340px) {
 
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem
     }
 
-    .works__img {
-        max-width: 100px;
-        max-height: 100px;
-    }
-
     .works__container {
-        grid-template-columns: repeat(3, max-content)
+        grid-template-columns: repeat(1, 1fr)
     }
 
 }
@@ -670,6 +691,10 @@ img {
     .l-header,
     .scrolltop {
         display: none;
+    }
+
+    .works__container {
+        grid-template-columns: repeat(3, 1fr)
     }
 
     .resume {
@@ -708,6 +733,11 @@ img {
     .languages__content {
         grid-template-columns: repeat(3, max-content);
         column-gap: 3.5rem;
+    }
+
+    .languages__circle:hover,
+    .languages__name:hover {
+        color: var(--hover-color);
     }
 
     .ineterests__container {

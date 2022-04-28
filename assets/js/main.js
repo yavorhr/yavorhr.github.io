@@ -110,7 +110,7 @@ let opt = {
     jsPDF: { format: 'a4', orientation: 'portrait' },
     pagebreak: {
         // mode: "avoid-all",
-        // mode: ["avoid-all", "css", "legacy"],
+        mode: ["avoid-all", "css", "legacy"],
         // before: ".pageInPDF",
         // after: ".stepInPDF",
     }
