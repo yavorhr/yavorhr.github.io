@@ -675,6 +675,16 @@ img {
         grid-template-columns: repeat(1, 1fr)
     }
 
+    .works__img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .img__project{
+        width: fit-content;
+        height: fit-content;
+    }
+
 }
 
 /* Classes modified for Large screen size */
