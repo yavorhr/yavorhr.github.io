@@ -675,11 +675,6 @@ img {
         grid-template-columns: repeat(2, 1fr)
     }
 
-    .interests__container{
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem .5rem
-    }
-
     .works__img{
         max-width: 140px;
         max-height: 140px;
