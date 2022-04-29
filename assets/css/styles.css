@@ -667,11 +667,11 @@ img {
 @media screen and (max-width: 430px) {
 
     .languages__content {
-        grid-template-columns: repeat(3, 1fr)
+        grid-template-columns: repeat(3, auto )
     }
 
     .interests__container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, auto);
         margin-top: var(--mb-2);
     }
     
