@@ -682,7 +682,7 @@ img {
     }
 
     .works__container {
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, auto)
     }
 
     .works__img{
