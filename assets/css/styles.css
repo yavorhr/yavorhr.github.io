@@ -664,7 +664,7 @@ img {
 
 /*============ MEDIA QUERIES ============*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
 
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
@@ -672,17 +672,17 @@ img {
     }
 
     .works__container {
-        grid-template-columns: repeat(1, 1fr)
+        grid-template-columns: repeat(2, 1fr)
     }
 
     .works__img{
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 120px;
+        max-height: 120x;
     }
 
     .img__project{
-        width: fit-content;
-        height: fit-content;
+        width: max-content;
+        height: max-content;
     }
 
 }
