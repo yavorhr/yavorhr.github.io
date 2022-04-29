@@ -666,6 +666,16 @@ img {
 /* For small devices, menu two columns */
 @media screen and (max-width: 430px) {
 
+    .languages__content {
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .interests__container {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: var(--mb-2);
+    }
+    
+
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem
