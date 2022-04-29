@@ -664,7 +664,7 @@ img {
 
 /*============ MEDIA QUERIES ============*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 430px) {
 
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
@@ -688,7 +688,7 @@ img {
 }
 
 /* Classes modified for Large screen size */
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 800px) {
     body {
         margin: 3rem 0;
     }
