@@ -402,6 +402,7 @@ img {
     display: flex;
     align-items: center;
     font-size: var(--small-font-size);
+    color:var(--text-color-light) ;
 }
 
 .home__icon {
