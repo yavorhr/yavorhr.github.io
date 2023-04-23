@@ -531,7 +531,7 @@ img {
 .languages__name {
     display: flex;
     align-items: center;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-1);
 }
 
 .skills__circle,
@@ -551,11 +551,13 @@ img {
 
 .skills__data h4 {
     margin: 0px;
+    margin-bottom: var(--mb-1);
 }
 
 /*============ CERTIFICATES ============*/
 .certificate__title a {
     font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
     color: var(--text-color);
     transition: all .3s ease;
 }
