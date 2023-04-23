@@ -556,7 +556,6 @@ img {
 /*============ CERTIFICATES ============*/
 .certificate__title a {
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-1);
     color: var(--text-color);
     transition: all .3s ease;
 }
