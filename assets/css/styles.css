@@ -402,7 +402,7 @@ img {
     display: flex;
     align-items: center;
     font-size: var(--small-font-size);
-    color:var(--text-color-light) ;
+    color: var(--text-color-light);
 }
 
 .home__icon {
@@ -548,9 +548,16 @@ img {
 
 
 /*============ CERTIFICATES ============*/
-.certificate__title {
+.certificate__title a {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
+    color: var(--text-color);
+    transition: all .3s ease;
+}
+
+.certificate__title a:hover {
+    font-size: large;
+    color: var(--hover-color);
 }
 
 /*============ PORTFOLIO ============*/
@@ -668,14 +675,14 @@ img {
 @media screen and (max-width: 430px) {
 
     .languages__content {
-        grid-template-columns: repeat(3, auto )
+        grid-template-columns: repeat(3, auto)
     }
 
     .interests__container {
         grid-template-columns: repeat(3, auto);
         margin-top: var(--mb-2);
     }
-    
+
 
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
@@ -686,12 +693,12 @@ img {
         grid-template-columns: repeat(2, auto)
     }
 
-    .works__img{
+    .works__img {
         max-width: 140px;
         max-height: 140px;
     }
 
-    .img__project{
+    .img__project {
         width: max-content;
         height: max-content;
     }
