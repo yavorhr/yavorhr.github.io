@@ -601,8 +601,8 @@ img {
 }
 
 .works__img {
-    /* max-width: 200px;
-    max-height: 190px; */
+   width: 200px;
+   height: 200px;
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
