@@ -554,6 +554,27 @@ img {
     margin-bottom: var(--mb-1);
 }
 
+.skills__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skills__icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.skills__item:hover .skills__icon {
+    transform: scale(1.2);
+    color: var(--hover-color);
+}
+
+.skills__item:hover .skills__name {
+    color: var(--hover-color);
+}
+
 /*============ CERTIFICATES ============*/
 .certificate__title a {
     font-size: var(--h3-font-size);
