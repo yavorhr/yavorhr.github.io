@@ -124,7 +124,7 @@ body.scale-cv {
 }
 
 .scale-cv .section-title {
-    margin-bottom: .75rem
+    margin-bottom: .50rem
 }
 
 .scale-cv .resume__left,
@@ -521,7 +521,7 @@ img {
     grid-template-columns: repeat(2, 1fr)
 }
 
-.skills_wrapper{
+.skills_wrapper {
     grid-template-columns: repeat(4, 1fr)
 }
 
@@ -601,8 +601,8 @@ img {
 }
 
 .works__img {
-   width: 200px;
-   height: 200px;
+    width: 230px;
+    height: 200px;
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
