@@ -753,7 +753,7 @@ img {
     }
 
     .works__container {
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(3, 1fr)
     }
 
     .resume {
@@ -807,6 +807,6 @@ img {
 
 @media screen and (max-width: 1040px) {
     .works__container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
