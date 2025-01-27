@@ -721,7 +721,7 @@ img {
     }
 
     .works__container {
-        grid-template-columns: repeat(1, auto)
+        grid-template-columns: repeat(1, 1fr)
     }
 
     .works__img {
@@ -805,7 +805,7 @@ img {
     }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (min-width: 1200px) {
     .works__container {
         grid-template-columns: repeat(3, 1fr);
     }
