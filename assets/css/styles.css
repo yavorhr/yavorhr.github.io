@@ -725,7 +725,7 @@ img {
 
     .works__img {
         min-width: 200px;
-        min-height: 180px;
+        height: 200px;
     }
 
     .img__project {
