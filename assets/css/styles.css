@@ -703,7 +703,7 @@ img {
 
 /*============ MEDIA QUERIES ============*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
 
     .languages__content {
         grid-template-columns: repeat(3, auto)
@@ -735,6 +735,20 @@ img {
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    .works__container {
+        grid-template-columns: repeat (1, 1fr)
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .works__container {
+        grid-template-columns: repeat (2, 1fr)
+    }
+}
+
+
 
 /* Classes modified for Large screen size */
 @media screen and (min-width: 800px) {
