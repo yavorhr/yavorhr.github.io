@@ -668,6 +668,7 @@ img {
     text-align: center;
     transition: all 0.3s ease-in-out;
     font-size: 0.9rem;
+    opacity: 0;
 }
 
 .works__data p {
