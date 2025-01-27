@@ -606,7 +606,6 @@ img {
 .works__item {
     width: 370px;
     height: 230px;
-    position: relative;
 }
 
 .works__img{
@@ -623,9 +622,6 @@ img {
 }
 
 .works__warning {
-    position: absolute;
-    top: -30px;
-    left: 0px;
     background-color: rgba(255, 0, 0, 0.7);
     color: white;
     padding: 0.2rem 0.5rem;
