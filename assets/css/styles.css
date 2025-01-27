@@ -621,45 +621,9 @@ img {
     z-index: 2;
 }
 
-.works__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
 
 .works__img:hover .works__overlay {
     opacity: 1;
-}
-
-.works__tech {
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-.works__data {
-    position: absolute;
-    bottom: -100%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--text-color-light);
-    border-radius: .5rem;
-    transition: .3s;
-    opacity: 0.9;
-    cursor: pointer;
 }
 
 .works__link {
