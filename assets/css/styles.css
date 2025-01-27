@@ -721,7 +721,7 @@ img {
     }
 
     .works__container {
-        grid-template-columns: repeat(2, auto)
+        grid-template-columns: repeat(1, auto)
     }
 
     .works__img {
@@ -753,7 +753,7 @@ img {
     }
 
     .works__container {
-        grid-template-columns: repeat(3, 1fr)
+        grid-template-columns: repeat(2, 1fr)
     }
 
     .resume {
@@ -802,5 +802,11 @@ img {
     .ineterests__container {
         grid-template-columns: repeat(4, max-content);
         column-gap: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .works__container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
