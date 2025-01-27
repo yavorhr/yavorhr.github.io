@@ -733,6 +733,10 @@ img {
         height: max-content;
     }
 
+    .skills_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 @media screen and (min-width: 535px) {
