@@ -124,7 +124,7 @@ body.scale-cv {
 }
 
 .scale-cv .section-title {
-    margin-bottom: .50rem
+    margin-bottom: .5rem
 }
 
 .scale-cv .resume__left,
@@ -256,7 +256,7 @@ img {
 
 /*============ Layout ============*/
 .bd-container {
-    max-width: 968px;
+    max-width: 1150px;
     width: calc(100% - 3rem);
     margin-left: var(--mb-3);
     margin-right: var(--mb-3);
@@ -758,7 +758,7 @@ img {
 
     .resume {
         display: grid;
-        grid-template-columns: .5fr 1fr;
+        grid-template-columns: 330px 1fr;
         background-color: var(--container-color);
         box-shadow: 0 0 8px rgba(13, 12, 12, .15);
     }
