@@ -623,8 +623,9 @@ img {
     z-index: 2;
 }
 
-.works__tem:hover .works__data {
+.works__item:hover .works__data {
     opacity: 1;
+    bottom: 0;
 }
 
 .works__link {
@@ -642,15 +643,6 @@ img {
     color: var(---wh);
     justify-content: center;
 }
-
-.works__img:hover .works__data {
-    bottom: 0;
-}
-
-/* .project__title {
-    font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-1);
-} */
 
 .works__data {
     position: absolute;
