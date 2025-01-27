@@ -609,6 +609,10 @@ img {
     border-radius: .5rem;
 }
 
+.works__item {
+    position: relative;
+}
+
 .works__warning {
     position: absolute;
     top: 10px;
