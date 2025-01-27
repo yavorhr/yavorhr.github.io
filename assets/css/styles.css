@@ -714,7 +714,6 @@ img {
         margin-top: var(--mb-2);
     }
 
-
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem
@@ -725,8 +724,8 @@ img {
     }
 
     .works__img {
-        max-width: 140px;
-        max-height: 140px;
+        min-width: 200px;
+        min-height: 180px;
     }
 
     .img__project {
