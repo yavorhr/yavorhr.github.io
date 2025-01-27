@@ -606,10 +606,14 @@ img {
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
-    padding: 10px;
 }
 
-.works__img{
+.works__img {
+    width: 100%;
+    height: 100%;
+}
+
+.img__project {
     width: 100%;
     height: 100%;
 }
