@@ -534,7 +534,6 @@ img {
 .languages__name {
     display: flex;
     align-items: center;
-    margin-bottom: var(--mb-1);
 }
 
 .skills__circle,
@@ -565,7 +564,7 @@ img {
 }
 
 .skills__icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
     transition: transform 0.3s ease;
 }
 
@@ -606,7 +605,7 @@ img {
 
 .works__item {
     width: 370px;
-    height: 250px;
+    height: 230px;
     position: relative;
 }
 
@@ -707,12 +706,12 @@ img {
 
 .interests__content {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .interests__icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: .25rem;
 }
 
@@ -787,9 +786,9 @@ img {
 
 }
 
-@media screen and (min-width: 535px) {
+@media screen and (max-width: 1200px) {
     .works__container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr)
     }
 }
 
@@ -808,10 +807,6 @@ img {
     .l-header,
     .scrolltop {
         display: none;
-    }
-
-    .works__container {
-        grid-template-columns: repeat(2, 1fr) !important
     }
 
     .resume {
