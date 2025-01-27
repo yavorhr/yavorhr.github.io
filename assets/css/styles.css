@@ -604,7 +604,6 @@ img {
     width: 230px;
     height: 200px;
     position: relative;
-    overflow: hidden;
     border-radius: .5rem;
 }
 
@@ -649,6 +648,7 @@ img {
     font-size: var(--h2-font-size);
     color: var(---wh);
     justify-content: center;
+    margin-top: 5px;
 }
 
 .works__data {
