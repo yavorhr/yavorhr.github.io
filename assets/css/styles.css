@@ -736,16 +736,9 @@ img {
 
 }
 
-@media screen and (min-width: 531px) {
-    .works__container {
-        grid-template-columns: repeat (2, 1fr) !important;
-    }
-}
-
-
 
 /* Classes modified for Large screen size */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     body {
         margin: 3rem 0;
     }
@@ -816,6 +809,13 @@ img {
 @media screen and (min-width: 1150px) {
     .works__container {
         grid-template-columns: repeat(3, 1fr) !important
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .works__container {
+        grid-template-columns: repeat(2, 1fr) !important
     }
 
 }
