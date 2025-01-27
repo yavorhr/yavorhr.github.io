@@ -601,10 +601,8 @@ img {
 }
 
 .works__img {
-    position: relative;
     width: 230px;
     height: 200px;
-    position: relative;
     overflow: hidden;
     border-radius: .5rem;
 }
@@ -624,7 +622,6 @@ img {
     border-radius: 0.25rem;
     z-index: 2;
 }
-
 
 .works__img:hover .works__data {
     opacity: 1;
