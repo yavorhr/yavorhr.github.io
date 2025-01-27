@@ -606,6 +606,7 @@ img {
 .works__item {
     width: 370px;
     height: 230px;
+    position: relative;
 }
 
 .works__img{
