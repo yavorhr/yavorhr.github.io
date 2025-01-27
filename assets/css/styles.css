@@ -603,12 +603,15 @@ img {
 .works__item {
     width: 230px;
     height: 200px;
+    position: relative;
     overflow: hidden;
     border-radius: .5rem;
+    padding: 10px;
 }
 
-.works__item {
-    position: relative;
+.works__img{
+    width: 100%;
+    height: 100%;
 }
 
 .works__warning {
