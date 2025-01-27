@@ -163,7 +163,6 @@ body.scale-cv {
     padding: .5rem;
 }
 
-
 .scale-cv .home__data {
     gap: .25rem;
 }
@@ -199,8 +198,8 @@ body.scale-cv {
 
 .scale-cv .ineterests__container {
     column-gap: 2.5rem;
-
 }
+
 
 body {
     margin: 0 0 var(--header-height) 0;
@@ -751,7 +750,7 @@ img {
     }
 
     .interests__container {
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(2, auto);
         margin-top: var(--mb-2);
     }
 
@@ -761,7 +760,7 @@ img {
     }
 
     .works__container {
-        grid-template-columns: repeat(1, 1fr)
+        grid-template-columns: repeat(1, auto)
     }
 
     .works__img {
@@ -775,7 +774,7 @@ img {
     }
 
     .skills_wrapper {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
