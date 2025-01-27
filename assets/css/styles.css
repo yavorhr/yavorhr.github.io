@@ -592,10 +592,6 @@ img {
 
 /*============ PORTFOLIO ============*/
 
-#portfolio .section-title{
-    margin-bottom: 50px ;
-}
-
 .works__container {
     grid-template-columns: repeat(2, 1fr);
     margin-top: var(--mb-2);
@@ -605,7 +601,7 @@ img {
 
 .works__item {
     width: 370px;
-    height: 230px;
+    height: 260px;
     position: relative;
 }
 
@@ -626,7 +622,7 @@ img {
     background-color: rgba(255, 0, 0, 0.7);
     color: white;
     padding: 0.2rem 0.5rem;
-    font-size: 0.75rem;
+    font-size: var(--normal-font-size);
     border-radius: 0.25rem;
     z-index: 2;
 }
