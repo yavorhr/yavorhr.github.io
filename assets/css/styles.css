@@ -623,7 +623,7 @@ img {
     z-index: 2;
 }
 
-.works__img:hover .works__data {
+.works__tem:hover .works__data {
     opacity: 1;
 }
 
