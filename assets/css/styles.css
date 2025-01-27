@@ -199,6 +199,7 @@ body.scale-cv {
 
 .scale-cv .ineterests__container {
     column-gap: 2.5rem;
+
 }
 
 body {
@@ -769,8 +770,8 @@ img {
     }
 
     .img__project {
-        width: max-content;
-        height: max-content;
+       height: 230px;
+       width: 300px;
     }
 
     .skills_wrapper {
