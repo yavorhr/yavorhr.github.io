@@ -703,7 +703,7 @@ img {
 
 /*============ MEDIA QUERIES ============*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
 
     .languages__content {
         grid-template-columns: repeat(3, auto)
@@ -736,13 +736,7 @@ img {
 
 }
 
-@media screen and (max-width: 500px) {
-    .works__container {
-        grid-template-columns: repeat (1, 1fr)
-    }
-}
-
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 531px) {
     .works__container {
         grid-template-columns: repeat (2, 1fr)
     }
@@ -816,11 +810,5 @@ img {
     .ineterests__container {
         grid-template-columns: repeat(4, max-content);
         column-gap: 3.5rem;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .works__container {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
