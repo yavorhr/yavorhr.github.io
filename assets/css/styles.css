@@ -594,7 +594,7 @@ img {
 /*============ PORTFOLIO ============*/
 
 #portfolio .section-title{
-    margin-top: 50px ;
+    margin-bottom: 50px ;
 }
 
 .works__container {
@@ -861,11 +861,4 @@ img {
         grid-template-columns: repeat(4, max-content);
         column-gap: 3.5rem;
     }
-}
-
-@media screen and (min-width: 1150px) {
-    .works__container {
-        grid-template-columns: repeat(3, 1fr) !important
-    }
-
 }
