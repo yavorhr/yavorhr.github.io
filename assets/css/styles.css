@@ -760,7 +760,7 @@ img {
     }
 
     .works__container {
-        grid-template-columns: repeat(1, auto)
+        grid-template-columns: repeat(1, 1fr)
     }
 
     .works__img {
