@@ -131,7 +131,7 @@ body.scale-cv {
 }
 
 .scale-cv #area-cv{
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 300px 1fr;
 }
 
 .scale-cv .home__img {
