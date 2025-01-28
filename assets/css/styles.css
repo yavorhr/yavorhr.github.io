@@ -797,12 +797,12 @@ img {
         row-gap: 50px;
     }
 
-    .works__img {
+    /* .works__img {
         min-width: 200px;
         height: 200px;
-    }
+    } */
 
-    .img__project {
+    .works__item {
         height: 300px;
     }
 
@@ -865,6 +865,11 @@ img {
         column-gap: 3.5rem;
     }
 
+    .works__container {
+        justify-content: center;
+        align-items: center;
+    }
+
     .languages__circle:hover,
     .languages__name:hover {
         color: var(--hover-color);
@@ -891,7 +896,7 @@ img {
 }
 
 .section-title {
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
 }
 
 p {
