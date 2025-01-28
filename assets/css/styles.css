@@ -125,7 +125,7 @@ body.scale-cv {
 }
 
 .scale-cv #portfolio {
-    display: none;
+    display: none !important;
 }
 
 .scale-cv .bd-container {
