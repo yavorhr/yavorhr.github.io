@@ -114,25 +114,25 @@ body.scale-cv {
     display: none;
 }
 
-/* .scale-cv .skills_wrapper {
+.scale-cv .skills_wrapper {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 1.5rem;
+    gap: 0.2rem; 
 }
 
 .scale-cv .ineterests__container {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 1.5rem;
-} */
-
-.scale-cv .interests__container {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
-    gap: 0.5rem; 
+    gap: 0.2rem; 
 }
 
-.scale-cv .skills_wrapper {
+/* .scale-cv .interests__container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    gap: 0.5rem; /* Reduce gap for tighter layout */
+/* } */
+
+/* .scale-cv .skills_wrapper {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
     gap: 0.5rem; 
-}
+} */ */
 
 .scale-cv #portfolio {
     display: none;
