@@ -102,16 +102,14 @@ let resumeButton = document.getElementById('resume-button');
 
 //html2pdf options
 let opt = {
-    margin: 0,
+    margin: 0.5,
     filename: 'YavorHristozov_CV',
     image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: {
-        scale: 6,
-    },
-    jsPDF: { format: 'a4', orientation: 'portrait' },
+    html2canvas: { scale: 2, scrollX: 0, scrollY: 0 },
+    jsPDF: {unit: 'in', format: 'a4', orientation: 'portrait' },
     pagebreak: {
         // mode: "avoid-all",
-        mode: ["avoid-all", "css", "legacy"],
+        mode: ["css", "legacy"],
         // before: ".pageInPDF",
         // after: ".stepInPDF",
     }
