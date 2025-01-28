@@ -481,8 +481,6 @@ img {
 /*============ ABOUT ME ============*/
 .about-me__description {
     text-align: justify;
-    padding: 0.5rem;
-
     overflow-wrap: break-word;
     word-break: break-word;
     page-break-inside: auto;
@@ -490,6 +488,13 @@ img {
     line-height: 1.6;
     margin: 0;
     padding: 0.5rem;
+
+    page-break-before: auto; 
+    page-break-after: auto;  
+    page-break-inside: avoid; 
+
+    hyphens: auto; /* Add hyphenation for long words */
+    text-align: justify; /* Ensure even spacing across lines */
 }
 
 .profile__description {
