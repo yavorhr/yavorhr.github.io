@@ -1,10 +1,25 @@
+/* ========== Last Modified Section ========== */
+const lastModifiedSpan = document.getElementById('last-modified');
+
+const lastModifiedDate = new Date(document.lastModified);
+const formattedDate = lastModifiedDate.toLocaleString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+});
+
+
+lastModifiedSpan.textContent = `Last modified: ${formattedDate}`;
+
+/* ========== Work items Click Event to Show works__data (for smartphones) ========== */
 const workItems = document.querySelectorAll('.works__item');
 
 workItems.forEach(item => {
     item.addEventListener('click', () => {
         const data = item.querySelector('.works__data');
 
-        // Toggle the visibility of works__data
         if (data.style.opacity === "1") {
             data.style.opacity = "0";
             data.style.pointerEvents = "none";
