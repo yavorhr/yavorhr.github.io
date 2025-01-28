@@ -645,7 +645,7 @@ img {
 
 .works__link:hover {
     background-color: white; 
-    color: #ffd700;
+    color: #4b4848;
     transform: scale(1.2);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
 }
@@ -746,7 +746,7 @@ img {
 
 /*============ MEDIA QUERIES ============*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 800px) {
 
     .languages__content {
         grid-template-columns: repeat(3, auto)
