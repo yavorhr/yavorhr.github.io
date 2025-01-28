@@ -364,7 +364,7 @@ img {
 .home__data {
     gap: .5rem;
     text-align: center;
-    margin-bottom: var(--mb-3);
+    /* margin-bottom: var(--mb-3); */
 }
 
 .home__img {
