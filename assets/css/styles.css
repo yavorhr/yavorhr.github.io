@@ -752,12 +752,9 @@ img {
 
 /*============ Last modified ============*/
 .last-modified {
-    position: fixed; 
-    bottom: 10px;    
-    right: 10px;    
-    font-size: 0.8rem;
+    font-size: var(--normal-font-size);
     color: var(--text-color-light); 
-    background-color: rgba(0, 0, 0, 0.5); 
+    text-align: end;
     padding: 5px 10px;
     border-radius: 5px;
     z-index: 1000;
