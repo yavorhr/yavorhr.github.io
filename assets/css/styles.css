@@ -109,6 +109,15 @@ body.scale-cv {
     display: none;
 }
 
+.scale-cv .skills_wrapper {
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.scale-cv .ineterests__container{
+    grid-template-columns: repeat(3, 1fr)
+}
+
+
 .scale-cv #portfolio {
     display: none;
 }
