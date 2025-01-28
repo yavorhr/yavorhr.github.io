@@ -659,7 +659,7 @@ img {
 }
 
 .works__title {
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
     color: var(---wh);
     justify-content: center;
     margin-top: 5px;
