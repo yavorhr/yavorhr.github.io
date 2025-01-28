@@ -472,6 +472,14 @@ img {
 .about-me__description {
     text-align: justify;
     padding: 0.5rem;
+
+    overflow-wrap: break-word;
+    word-break: break-word;
+    page-break-inside: auto;
+    hyphens: auto;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0.5rem;
 }
 
 .profile__description {
