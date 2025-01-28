@@ -142,7 +142,11 @@ body.scale-cv {
 
 .scale-cv .resume__left,
 .scale-cv .resume__right {
-    padding: 0 5rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    text-align: left; /* Force text alignment to the left */
+    justify-content: flex-start; /* For flexbox layouts */
+    align-items: flex-start; /* Ensure items align at the start */
 }
 
 .scale-cv #area-cv {
