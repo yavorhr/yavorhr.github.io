@@ -110,11 +110,13 @@ body.scale-cv {
 }
 
 .scale-cv .skills_wrapper {
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
 }
 
 .scale-cv .ineterests__container {
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
 }
 
 
@@ -206,10 +208,6 @@ body.scale-cv {
     margin-bottom: var(--mb-1);
 }
 
-
-.scale-cv .ineterests__container {
-    column-gap: 2.5rem;
-}
 
 body {
     margin: 0 0 var(--header-height) 0;
