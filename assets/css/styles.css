@@ -493,8 +493,8 @@ img {
     page-break-after: auto;  
     page-break-inside: avoid; 
 
-    hyphens: auto; /* Add hyphenation for long words */
-    text-align: justify; /* Ensure even spacing across lines */
+    hyphens: auto; 
+    text-align: justify; 
 }
 
 .profile__description {
@@ -555,6 +555,10 @@ img {
 }
 
 /*============ SKILLS AND LANGUAGES ============*/
+
+#skills {
+    page-break-before: always; /* Force the section to start on a new page */
+}
 .languages__content {
     grid-template-columns: repeat(2, 1fr)
 }
