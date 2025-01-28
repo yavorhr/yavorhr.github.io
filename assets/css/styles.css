@@ -130,6 +130,10 @@ body.scale-cv {
     padding: 0 1rem;
 }
 
+.scale-cv #area-cv{
+    grid-template-columns: 150px 1fr;
+}
+
 .scale-cv .home__img {
     width: 90px;
     height: 90px;
