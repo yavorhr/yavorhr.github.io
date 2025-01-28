@@ -624,7 +624,8 @@ img {
 
 .works__item {
     position: relative;
-    width: 370px;
+    min-width: 170px;
+    max-width: 370px;
     height: 270px;
 }
 
@@ -803,7 +804,6 @@ img {
 
     .img__project {
         height: 300px;
-        /* width: 300px; */
     }
 
     .skills_wrapper {
