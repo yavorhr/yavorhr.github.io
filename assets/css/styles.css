@@ -627,6 +627,7 @@ img {
     min-width: 170px;
     max-width: 370px;
     height: 270px;
+    cursor: pointer;
 }
 
 .works__img {
@@ -655,6 +656,7 @@ img {
 .works__item:hover .works__data {
     opacity: 1;
     bottom: 0;
+    pointer-events: auto;
 }
 
 .works__link {
@@ -702,6 +704,7 @@ img {
     text-align: center;
     font-size: 0.9rem;
 
+    pointer-events: none;
     opacity: 0;
     transition: all 0.3s ease-in-out;
 }

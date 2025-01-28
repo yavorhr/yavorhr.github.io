@@ -1,3 +1,22 @@
+const workItems = document.querySelectorAll('.works__item');
+
+workItems.forEach(item => {
+    item.addEventListener('click', () => {
+        const data = item.querySelector('.works__data');
+
+        // Toggle the visibility of works__data
+        if (data.style.opacity === "1") {
+            data.style.opacity = "0";
+            data.style.pointerEvents = "none";
+            data.style.bottom = "-30%";
+        } else {
+            data.style.opacity = "1";
+            data.style.pointerEvents = "auto";
+            data.style.bottom = "0";
+        }
+    });
+});
+
 /* ========== SHOW MENU ========== */
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId)
@@ -106,7 +125,7 @@ let opt = {
     filename: 'YavorHristozov_CV',
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 2, scrollX: 0, scrollY: 0 },
-    jsPDF: {unit: 'in', format: 'a4', orientation: 'portrait' },
+    jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' },
     pagebreak: {
         // mode: "avoid-all",
         mode: ["css", "legacy"],
@@ -129,4 +148,6 @@ resumeButton.addEventListener('click', () => {
     generateResume();
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal
     setTimeout(removeScale, 5000);
+
+
 });
