@@ -772,8 +772,8 @@ img {
     }
 
     .img__project {
-        height: 230px;
-        width: 300px;
+        height: 270px;
+        /* width: 300px; */
     }
 
     .skills_wrapper {
