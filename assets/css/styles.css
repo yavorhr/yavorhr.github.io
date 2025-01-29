@@ -183,6 +183,11 @@ body.scale-cv {
     gap: 1rem;
 }
 
+.scale-cv .interests__content,
+.scale-cv .skills__item {
+    gap: 0.1rem;
+}
+
 .scale-cv .education__time,
 .scale-cv .experience__time {
     padding: .5rem;
