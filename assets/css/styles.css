@@ -211,7 +211,7 @@ body.scale-cv {
 
 .scale-cv .education__line {
     width: 1px;
-    height: 150%;
+    height: 140%;
     transform: translate(5px, 0);
 }
 
