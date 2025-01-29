@@ -120,7 +120,9 @@ body.scale-cv {
 }
 
 .scale-cv .skills_wrapper {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; 
+    grid-template-rows: auto auto; 
     gap:2rem;
 }
 
