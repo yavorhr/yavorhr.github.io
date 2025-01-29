@@ -121,7 +121,7 @@ body.scale-cv {
 
 .scale-cv .skills_wrapper {
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.2rem;
+    gap: 0.6rem;
 }
 
 .scale-cv .ineterests__container {
