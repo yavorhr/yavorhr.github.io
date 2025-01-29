@@ -121,7 +121,7 @@ body.scale-cv {
 
 .scale-cv .skills_wrapper {
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.6rem;
+    gap:2rem;
 }
 
 .scale-cv .ineterests__container {
@@ -573,10 +573,6 @@ img {
 #skills {
     page-break-before: always;
     /* Force the section to start on a new page */
-}
-
-.categories-wrapper{
-    display: flex;
 }
 
 .languages__content {
