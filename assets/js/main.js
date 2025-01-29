@@ -136,7 +136,7 @@ let resumeButton = document.getElementById('resume-button');
 
 //html2pdf options
 let opt = {
-    margin: 0.2,
+    margin: 0.1,
     filename: 'YavorHristozov_CV',
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 2, scrollX: 0, scrollY: 0 },
