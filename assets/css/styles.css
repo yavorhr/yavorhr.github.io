@@ -100,7 +100,7 @@ body.scale-cv {
     color: var(--text-color);
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
-   
+
 }
 
 .generate-pdf:hover {
@@ -785,18 +785,21 @@ img {
 
 
 /*============ Last modified ============*/
-.last-modified {
+
+.last-modified_wrapper {
     position: absolute;
     bottom: 0px;
     left: 5px;
-    font-size: var(--normal-font-size);
-    color: var(--text-color-light);
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center ;
     padding: 5px 10px;
     border-radius: 5px;
     z-index: 1000;
+    font-size: var(--normal-font-size);
+    color: var(--text-color-light);
 }
-
 
 /* Scroll top */
 .scrolltop {

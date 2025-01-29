@@ -11,7 +11,7 @@ const formattedDate = lastModifiedDate.toLocaleString('en-US', {
 });
 
 
-lastModifiedSpan.textContent = `Last modified: ${formattedDate}`;
+lastModifiedSpan.textContent = `${formattedDate}`;
 
 /* ========== Work items Click Event to Show works__data (for smartphones) ========== */
 const workItems = document.querySelectorAll('.works__item');
