@@ -125,7 +125,7 @@ body.scale-cv {
 }
 
 .scale-cv .ineterests__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 0;
 }
 
