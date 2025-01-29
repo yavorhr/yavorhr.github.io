@@ -284,6 +284,10 @@ img {
     letter-spacing: .35rem;
 }
 
+#skills .section-title {
+    margin-bottom: 0;
+}
+
 /*============ Layout ============*/
 .bd-container {
     max-width: 1200px;
@@ -761,7 +765,7 @@ img {
 
 /*============ INTERESTS ============*/
 .interests__container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: start;
     margin-top: var(--mb-2);
 }
@@ -794,7 +798,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content:center ;
+    justify-content: center;
     padding: 5px 10px;
     border-radius: 5px;
     z-index: 1000;
