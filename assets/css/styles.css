@@ -124,7 +124,7 @@ body.scale-cv {
     gap:2rem;
 }
 
-.scale-cv .ineterests__container {
+.scale-cv .interests__container {
     grid-template-columns: repeat(4, 1fr);
     gap: 0;
 }
