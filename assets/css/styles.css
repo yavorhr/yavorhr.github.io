@@ -786,6 +786,9 @@ img {
 
 /*============ Last modified ============*/
 .last-modified {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
     font-size: var(--normal-font-size);
     color: var(--text-color-light);
     text-align: end;
@@ -884,6 +887,7 @@ img {
     }
 
     .resume__left {
+        position: relative;
         background-color: var(--container-color-alt);
     }
 
@@ -891,16 +895,6 @@ img {
     .resume__right {
         padding: 0 1.5rem;
     }
-
-    /* .generate-pdf,
-    .change-theme {
-        display: inline-block;
-        transition: transform 0.2s ease-in-out;
-    }
-
-    .generate-pdf:hover {
-        transform: scale(1.5);
-    } */
 
     .section-title,
     .profile__description {
