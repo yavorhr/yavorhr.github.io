@@ -125,8 +125,8 @@ body.scale-cv {
 }
 
 .scale-cv .interests__container {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
 .scale-cv #portfolio {
@@ -581,9 +581,8 @@ img {
 
 .skills_wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr; 
+    grid-template-columns: 1.5fr 1fr 1fr; 
     grid-template-rows: auto auto; 
-    gap: 2 rem;
 }
 
 .category-wrapper{
