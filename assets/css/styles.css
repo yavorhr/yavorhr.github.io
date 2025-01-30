@@ -121,7 +121,7 @@ body.scale-cv {
 
 .scale-cv .skills_wrapper {
     grid-template-columns: repeat(3, 1fr);
-    gap:2rem;
+    gap: 2rem;
 }
 
 .scale-cv .interests__container {
@@ -581,11 +581,11 @@ img {
 
 .skills_wrapper {
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr; 
-    grid-template-rows: auto auto; 
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: auto auto;
 }
 
-.category-wrapper{
+.category-wrapper {
     grid-template-columns: repeat(2, 1fr)
 }
 
@@ -633,17 +633,18 @@ img {
     transition: transform 0.3s ease;
 }
 
+/* svg icons */
 .skills__icon-img {
-    width: 2rem;  
-    height: 2rem; 
-    
+    width: 2rem;
+    height: 2rem;
+
     transition: transform 0.3s ease, opacity 0.3s ease;
-    filter: grayscale(100%) brightness(0); 
+    filter: brightness(0) saturate(100%) invert(46%) sepia(0%) saturate(0%) hue-rotate(180deg);
 }
 
 .skills__item:hover .skills__icon-img {
-    transform: scale(1.1); 
-    filter: grayscale(0%) brightness(1); 
+    transform: scale(1.1);
+    filter: grayscale(0%) brightness(1);
 }
 
 .skills__item:hover .skills__icon {
