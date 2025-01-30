@@ -633,6 +633,20 @@ img {
     transition: transform 0.3s ease;
 }
 
+.skills__icon-img {
+    width: 2rem;  /* Match the icon size */
+    height: 2rem; /* Maintain proportions */
+    
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    
+    filter: grayscale(100%) brightness(0); /* Make it behave like an icon */
+}
+
+.skills__item:hover .skills__icon-img {
+    transform: scale(1.1); /* Same hover effect as bx icons */
+    filter: grayscale(0%) brightness(1); /* Restore original color on hover */
+}
+
 .skills__item:hover .skills__icon {
     transform: scale(1.2);
     color: var(--hover-color);
