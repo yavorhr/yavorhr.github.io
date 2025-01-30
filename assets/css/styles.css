@@ -644,7 +644,7 @@ img {
 
 .skills__item:hover .skills__icon-img {
     transform: scale(1.1);
-    filter: grayscale(0%) brightness(1);
+    filter: none; /* Restore original color on hover */
 }
 
 .skills__item:hover .skills__icon {
