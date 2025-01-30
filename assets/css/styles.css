@@ -637,14 +637,12 @@ img {
 .skills__icon-img {
     width: 2rem;
     height: 2rem;
-
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    filter: brightness(0) saturate(100%) invert(46%) sepia(0%) saturate(0%) hue-rotate(180deg);
+    filter: grayscale(100%) brightness(0) sepia(100%) hue-rotate(0deg) saturate(0%) opacity(1);
+    transition: filter 0.3s ease;
 }
 
 .skills__item:hover .skills__icon-img {
-    transform: scale(1.1);
-    filter: none; /* Restore original color on hover */
+    filter: none; /* Restores the original color on hover */
 }
 
 .skills__item:hover .skills__icon {
