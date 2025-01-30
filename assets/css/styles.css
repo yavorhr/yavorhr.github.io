@@ -647,6 +647,16 @@ img {
     filter: none; /* Restore original color on hover */
 }
 
+.postman-orange {
+    fill: #707070; /* Gray by default */
+    transition: fill 0.3s ease;
+}
+
+.skills__item:hover .postman-orange {
+    fill: orange; /* Back to orange on hover */
+}
+
+
 .skills__item:hover .skills__icon {
     transform: scale(1.2);
     color: var(--hover-color);
