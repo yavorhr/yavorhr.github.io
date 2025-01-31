@@ -651,11 +651,12 @@ img {
     color: #ffd700;
 }
 
-.bxl-css3:hover, .bxl-docker{
+.bxl-css3:hover,
+.bxl-docker {
     color: deepskyblue;
 }
 
-.html-item:hover .html-item i{
+.html-item:hover .bxl-html5 {
     color: crimson I !important;
 }
 
