@@ -479,7 +479,7 @@ img {
 /*========== Certificates container ==========*/
 
 .certificate__container {
-    list-style: inherit !important;
+    list-style: disclosure-closed;
 }
 
 /*============ SOCIAL ============*/
