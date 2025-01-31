@@ -652,7 +652,7 @@ img {
 }
 
 .css-item:hover .bxl-css3,
-.docker-item:hover bxl-docker {
+.docker-item:hover .bxl-docker {
     color: deepskyblue !important;
 }
 
