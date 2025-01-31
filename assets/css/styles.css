@@ -624,6 +624,7 @@ img {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    margin-bottom: var(--mb-2);
 
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -647,14 +648,6 @@ img {
     filter: none;
 }
 
-.js-item:hover .bxl-javascript {
-    color: #ffd700 !important;
-}
-
-
-.debugging-item:hover .bx-bug {
-    color: rgb(58, 138, 51) !important;
-}
 
 .skills__item:hover .skills__icon {
     transform: scale(1.2);
