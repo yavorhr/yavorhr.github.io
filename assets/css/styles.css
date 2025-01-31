@@ -467,6 +467,12 @@ img {
     color: var(--container-color)
 }
 
+/*========== Certificates container ==========*/
+
+.certificate__container{
+    list-style: inherit !important;
+}
+
 /*============ SOCIAL ============*/
 
 .social__container {
