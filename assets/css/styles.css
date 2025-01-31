@@ -656,7 +656,7 @@ img {
 }
 
 .html-item:hover .html-item i{
-    color: crimson;
+    color: crimson I !important;
 }
 
 .skills__item:hover .skills__icon {
