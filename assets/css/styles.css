@@ -647,13 +647,13 @@ img {
     filter: none;
 }
 
-.bxl-javascript:hover {
-    color: #ffd700;
+.js-item:hover .bxl-javascript {
+    color: #ffd700 !important;
 }
 
-.bxl-css3:hover,
-.bxl-docker {
-    color: deepskyblue;
+.css-item:hover .bxl-css3,
+.docker-item:hover bxl-docker {
+    color: deepskyblue !important;
 }
 
 .html-item:hover .bxl-html5 {
