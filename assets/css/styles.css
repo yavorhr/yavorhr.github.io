@@ -651,16 +651,9 @@ img {
     color: #ffd700 !important;
 }
 
-.css-item:hover .bxl-css3 {
-    color: deepskyblue !important;
-}
 
 .debugging-item:hover .bx-bug {
     color: rgb(58, 138, 51) !important;
-}
-
-.html-item:hover .bxl-html5 {
-    color: crimson !important;
 }
 
 .skills__item:hover .skills__icon {
