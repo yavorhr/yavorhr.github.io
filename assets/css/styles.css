@@ -159,10 +159,11 @@ body.scale-cv {
 }
 
 .scale-cv .skills_wrapper {
-    justify-content: center;
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .scale-cv .resume__right {
