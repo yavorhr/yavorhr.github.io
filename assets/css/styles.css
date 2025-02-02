@@ -169,7 +169,7 @@ body.scale-cv {
     min-width: 250px;/
 }
 
-#skills {
+.scale-cv #skills {
     padding-right: 0px !important;
 }
 
