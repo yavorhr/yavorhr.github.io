@@ -158,22 +158,6 @@ body.scale-cv {
     align-items: flex-start;
 }
 
-.scale-cv .skills_wrapper {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 1.5rem; 
-}
-
-.scale-cv .skills__category {
-    flex: 1 1 calc(33.333% - 1.5rem); /* Each takes 1/3 of the row */
-    max-width: calc(33.333% - 1.5rem); /* Prevents stretching */
-    min-width: 250px; /* Prevents them from shrinking too much */
-}
-
-#skills{
-    padding-right: 0px !important;
-}
 
 .scale-cv .resume__right {
     padding-right: 10rem;
