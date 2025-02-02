@@ -171,6 +171,11 @@ body.scale-cv {
     align-items: flex-start;
 }
 
+
+.scale-cv .resume__right .skills_wrapper{
+    justify-content: center;
+}
+
 .scale-cv .resume__right {
     padding-right: 10rem;
 }
