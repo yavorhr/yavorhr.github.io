@@ -89,6 +89,10 @@ body.scale-cv {
     filter: grayscale(0%);
 }
 
+.scale-cv .l-main{
+    width: 1000px !important;
+}
+
 
 /*============ Generate PDF button ============*/
 .generate-pdf {
@@ -142,7 +146,7 @@ body.scale-cv {
 }
 
 .scale-cv .bd-container {
-    max-width: 100px;
+    max-width: 800px;
 }
 
 .scale-cv .section {
