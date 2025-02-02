@@ -90,9 +90,14 @@ body.scale-cv {
 }
 
 .scale-cv .l-main{
-    width: 1000px !important;
+    width: 1000px !;
 }
 
+.scale-cv .skills_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 /*============ Generate PDF button ============*/
 .generate-pdf {
