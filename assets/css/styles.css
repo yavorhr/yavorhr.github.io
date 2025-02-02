@@ -173,7 +173,7 @@ body.scale-cv {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     font-size: var(--smaller-font-size);
-    width: 90%;
+    width: 80%;
 }
 
 .scale-cv .skills_wrapper svg{
