@@ -89,13 +89,13 @@ body.scale-cv {
     filter: grayscale(0%);
 }
 
-.scale-cv .l-main{
+.scale-cv .l-main {
     width: 1000px !;
 }
 
-.scale-cv .skills_wrapper{
-    display: flex;
-    align-items: center;
+.scale-cv .skills_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
     justify-content: space-around;
 }
 
