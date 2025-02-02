@@ -158,15 +158,11 @@ body.scale-cv {
     align-items: flex-start;
 }
 
-.scale-cv .resume__right .skills {
+.scale-cv .skills_wrapper {
     justify-content: center;
-    align-items: flex-start;
-}
-
-.scale-cv .skills_wrapper{
     display: grid;
-    grid-template-columns: 2fr 1fr 1f;
-    justify-content: space-around;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    width: 100%;
 }
 
 .scale-cv .resume__right {
