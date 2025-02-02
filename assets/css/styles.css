@@ -166,8 +166,9 @@ body.scale-cv {
     gap: 1.5rem;
 }
 
-.scale-cv #skills{
+.scale-cv #skills {
     padding-right: 0px !important;
+    justify-content: space-between
 }
 
 .scale-cv .resume__right {
