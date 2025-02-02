@@ -160,6 +160,7 @@ body.scale-cv {
 
 .scale-cv .skills_wrapper {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap; 
     justify-content: center; 
     gap: 1.5rem; 
