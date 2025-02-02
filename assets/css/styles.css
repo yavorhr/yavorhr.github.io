@@ -164,6 +164,7 @@ body.scale-cv {
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-right: 0px;
 }
 
 .scale-cv .resume__right {
