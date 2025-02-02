@@ -159,17 +159,24 @@ body.scale-cv {
     text-align: left;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.scale-cv #experience,
+.scale-cv #certificates,
+.scale-cv #languages,
+.scale-cv #interests {
     padding-right: 10rem;
 }
 
 .scale-cv .skills_wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1.5fr 1fr 1fr;
     justify-content: space-between;
-    gap: 1.5rem;
+    font-size: var(--smaller-font-size);
+    gap: 0.2rem;
 }
 
-.scale-cv #skills{
+.scale-cv #skills {
     padding-right: 0px !important;
 }
 
