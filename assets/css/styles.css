@@ -162,8 +162,8 @@ body.scale-cv {
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 #skills{
