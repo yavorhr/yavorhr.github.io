@@ -158,7 +158,7 @@ body.scale-cv {
     align-items: flex-start;
 }
 
-.scale-cv .skills_wrapper {
+.scale-cv #skills .skills_wrapper {
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
     width: 100%;
