@@ -160,16 +160,17 @@ body.scale-cv {
 
 .scale-cv .skills_wrapper {
     display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1.5rem; 
 }
 
 .scale-cv .skills__category {
-    flex: 1 1 calc(33.333% - 1.5rem);
-    min-width: 250px;/
+    flex: 1 1 calc(33.333% - 1.5rem); 
+    min-width: 250px; /
 }
 
-.scale-cv #skills {
+#skills{
     padding-right: 0px !important;
 }
 
