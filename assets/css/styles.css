@@ -158,12 +158,16 @@ body.scale-cv {
     align-items: flex-start;
 }
 
-.scale-cv #skills .skills_wrapper {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
-    width: 100%;
-    justify-content: flex-start;
-    align-items: flex-start;
+.scale-cv .skills_wrapper {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1.5rem; 
+}
+
+.scale-cv .skills__category {
+    flex: 1 1 calc(33.333% - 1.5rem); 
+    min-width: 250px; /
 }
 
 #skills{
