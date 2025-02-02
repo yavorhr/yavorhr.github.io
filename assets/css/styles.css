@@ -161,14 +161,14 @@ body.scale-cv {
 .scale-cv .skills_wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     gap: 1.5rem;
 }
 
 .scale-cv #skills {
     padding-right: 0px !important;
-    justify-content: space-between
+    justify-content: center
 }
 
 .scale-cv .resume__right {
