@@ -121,8 +121,8 @@ body.scale-cv {
 
 .scale-cv .skills_wrapper {
     grid-template-columns: 2fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: space-around;
     /* grid-template-rows: auto auto; */
     gap: 1rem;
 }
